@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Modal from "./components/Modal";
 import axios from "axios";
-const _ = "http://localhost:8000";
+const _ = "https://todoit.herokuapp.com";
 class App extends Component {
   constructor(props) {
     super(props);
@@ -150,6 +150,15 @@ class App extends Component {
             onSave={this.handleSubmit}
           />
         ) : null}
+        <footer className="text-center mt-50">
+          <div>
+            Made with ReactJS, Django and &#128151; by
+            <a href="https://github.com/jay-davisphem">
+              &nbsp;David Oluwafemi(davisphem)
+            </a>
+          </div>
+          <div>Copyright &#169;2022</div>
+        </footer>
       </main>
     );
   }
