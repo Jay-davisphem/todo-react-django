@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Modal from "./components/Modal";
 import axios from "axios";
-const _ = "https://todoit.herokuapp.com";
+const _ = "https://wannado.herokuapp.com";
 class App extends Component {
   constructor(props) {
     super(props);
